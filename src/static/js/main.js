@@ -19,5 +19,5 @@ requirejs.config({
 
 require(["app", "test1"], function(app, test1) {
     app.click1buton();
-    test1.f();
+    //test1.f();
 });
